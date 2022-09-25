@@ -14,6 +14,7 @@ public class ConfigServiceImp implements ConfigService {
 	@Override
 	public List<Config> list() {
 		return repository.findAll();
+		
 	}
 
 	@Override

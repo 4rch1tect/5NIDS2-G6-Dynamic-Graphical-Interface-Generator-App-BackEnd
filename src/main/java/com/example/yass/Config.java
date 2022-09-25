@@ -18,6 +18,8 @@ public class Config {
 	private String attName;
 	@Column
 	private String attType;
+	@Column
+	private String attCode;
 	@ElementCollection
 	private List<String> options;
 
@@ -43,6 +45,14 @@ public class Config {
 
 	public void setAttType(String attType) {
 		this.attType = attType;
+	}
+	
+	public String getAttCode() {
+		return attCode;
+	}
+
+	public void setAttCode(String attCode) {
+		this.attCode = attCode;
 	}
 
 	public List<String> getOptions() {
