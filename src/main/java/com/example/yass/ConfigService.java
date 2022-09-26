@@ -6,10 +6,15 @@ import org.springframework.stereotype.Service;
 @Service
 public interface ConfigService {
 
-	List<Config> list();
-	Config listId(int id);
-	Config add (Config  c);
-	Config edit (Config c);
-	Config delete(int id);
+	List<Config> list(); //List all configs
+	Config listId(int id); //List config By Id
+	Config add (Config  c); //Add a config
+	Config edit (Config c); //Edit a config
+	Config delete(int id); //Delete a config
 	
 }
+
+
+
+
+
