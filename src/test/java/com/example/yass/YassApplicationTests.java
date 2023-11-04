@@ -41,7 +41,7 @@ class ClientServiceImplMockTest {
 	@Test
 	@Order(2)
 	public void testRetrieveClient() {
-		//doReturn(Optional.of(client)).when(clientRepository).findById(Mockito.anyInt());
+		//mockito
 		Mockito.when(clientRepository.findById(Mockito.anyInt())).thenReturn(client);
 		Client client1 = clientService.listId(2);
 		Assertions.assertNotNull(client1);
