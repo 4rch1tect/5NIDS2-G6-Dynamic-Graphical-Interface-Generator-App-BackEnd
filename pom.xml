@@ -67,5 +67,10 @@
 			<name>Nexus Repository</name>
 			<url>http://192.168.7.222:8081/repository/maven-releases/</url>
 		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>snapshots</name>
+			<url>http://192.168.7.222:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
 	</distributionManagement>
 </project>
