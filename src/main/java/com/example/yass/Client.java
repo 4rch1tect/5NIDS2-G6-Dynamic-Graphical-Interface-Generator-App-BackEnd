@@ -18,6 +18,15 @@ public class Client {
 	@Column
 	private String job;
 
+	public Client() {
+	}
+	public Client(String name, String address, String job) {
+		super();
+		this.name = name;
+		this.address = address;
+		this.job = job;
+	}
+
 	public int getId() {
 		return id;
 	}

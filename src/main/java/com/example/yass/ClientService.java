@@ -1,9 +1,9 @@
 package com.example.yass;
 
-import java.util.List;
-
 import org.springframework.stereotype.Service;
-@Service
+
+import java.util.List;
+@Service ("cl")
 public interface ClientService {
 
 	List<Client> list(); //List all clients
