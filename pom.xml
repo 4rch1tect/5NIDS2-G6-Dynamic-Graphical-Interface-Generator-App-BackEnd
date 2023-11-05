@@ -70,7 +70,7 @@
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>Snapshot</name>
-			<url>http://http://192.168.7.222:8081/repository/maven-snapshots</url>
+			<url>http://192.168.7.222:8081/repository/maven-snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
