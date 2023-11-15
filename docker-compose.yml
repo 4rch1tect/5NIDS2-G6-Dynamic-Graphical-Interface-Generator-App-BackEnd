@@ -36,5 +36,8 @@ services:
     tty: true
     networks:
       - backendNetwork
+
+volumes:
+  db:
 networks:
   backendNetwork:
