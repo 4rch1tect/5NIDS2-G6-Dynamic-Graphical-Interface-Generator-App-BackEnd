@@ -2,7 +2,7 @@ version: '3'
 services:
   db:
     image: mysql:latest
-    container_name: new-mysql-db
+    container_name: mysql-db
     environment:
       MYSQL_DATABASE: root
       MYSQL_ROOT_PASSWORD: yassine
