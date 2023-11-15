@@ -1,11 +1,8 @@
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:11-jre-slim
+FROM openjdk:11
 
-# Set the working directory in the container
-WORKDIR /app
+EXPOSE 8082
 
-# Copy the application JAR into the container at the working directory
-COPY target/yass-0.0.1-SNAPSHOT.jar ./app.jar
+COPY target/yass-0.0.1-SNAPSHOT.jar yass-0.0.1-SNAPSHOT.jar
 
-# Run the application
-CMD ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java","-jar","/yass-0.0.1-SNAPSHOT.jar"]
