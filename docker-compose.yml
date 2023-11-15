@@ -1,7 +1,7 @@
 version: '3'
 services:
   db:
-    image: mysql:5.7
+    image: mysql:latest
     container_name: mysql-db
     environment:
       MYSQL_DATABASE: spring
@@ -17,7 +17,7 @@ services:
   backend:
     depends_on:
       - db
-    image: mezenbayounes/devops_back_end:latest
+    image: jojo8/dd:latest
     container_name: springbootapp
     restart: on-failure
     ports:
