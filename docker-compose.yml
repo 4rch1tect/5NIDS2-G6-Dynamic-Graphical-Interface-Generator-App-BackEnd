@@ -17,7 +17,7 @@ services:
   backend:
     depends_on:
       - db
-    image: ze4rch1tect/yassinecherif-spring-boot-app-backend:latest
+    image: ze4rch1tect/yassinecherif-5nids2-spring-boot-app-backend:latest
     container_name: springbootapp
     restart: on-failure
     ports:
