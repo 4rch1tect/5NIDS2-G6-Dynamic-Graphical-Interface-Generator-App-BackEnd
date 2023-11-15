@@ -36,8 +36,5 @@ services:
     tty: true
     networks:
       - backendNetwork
-
-
-
 networks:
   backendNetwork:
