@@ -1,5 +1,5 @@
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:11
+FROM openjdk:11-jre-slim
 
 EXPOSE 8082
 
